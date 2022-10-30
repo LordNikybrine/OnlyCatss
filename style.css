@@ -1,0 +1,73 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgba(25, 25, 25, 0.85); 
+}
+header{
+    background-color: rgb(80, 80, 80);
+}
+.headd{
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  border-radius: 14px;
+}
+.input{
+    margin: 2%;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background-color: rgba(130, 130, 130, 0.486);
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+    width: 30%;
+}
+
+.input:focus{
+    width: 55%;
+    background-color: rgba(191, 191, 191, 0.486);
+}
+
+.input:hover{
+    background-color: rgba(191, 191, 191, 0.486);
+}
+
+.home-button{
+    margin-left: 5%;
+    background: none;
+    border: none;
+    width: 5%;
+    font-size: 18px;
+    font-weight: 550;
+    margin-right: 2%;
+    color:  rgb(215, 215, 215);
+}
+.home-button:hover{
+    text-decoration: underline;
+}
+.hs{
+    justify-items: start;
+}
+.man{
+    margin-right: 10%;
+    color: rgb(200, 200, 200);
+    transition: 0.2s ease-in-out;
+}
+.man:hover{
+    color: white;
+}
+.icons{
+    display: flex;
+    margin-left: 50%;
+    justify-items: end;
+    justify-content: end;
+    margin-right: 5%;
+}
+.menu{
+    color: rgb(200, 200, 200);
+    transition: 0.2s ease-in-out;
+}
+.menu:hover{
+    color: white;
+}
